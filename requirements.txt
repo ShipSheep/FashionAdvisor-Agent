@@ -1,0 +1,27 @@
+# Core LangChain / LangGraph
+langchain>=1.3.0,<2.0.0
+langgraph>=1.0.0,<2.0.0
+langgraph-checkpoint-sqlite>=3.0.0,<4.0.0
+
+# Model provider adapter used by Qwen OpenAI-compatible endpoint
+langchain-openai>=1.0.0,<2.0.0
+
+# Tavily official LangChain integration
+langchain-tavily>=0.2.0,<1.0.0
+
+# RAG
+langchain-community>=0.4.0,<1.0.0
+langchain-chroma>=1.0.0,<2.0.0
+langchain-text-splitters>=1.0.0,<2.0.0
+chromadb>=1.0.0,<2.0.0
+
+# DashScope embedding + utilities
+dashscope
+python-dotenv
+pydantic>=2.0
+
+# Web UI
+streamlit>=1.40.0,<2.0.0
+
+# Tests
+pytest>=8.0,<10.0

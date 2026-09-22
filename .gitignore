@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+
+# 本地运行产生的数据库
+chroma_db/*
+!chroma_db/.gitkeep
+data/agent_memory.sqlite3
+data/agent_memory.sqlite3-shm
+data/agent_memory.sqlite3-wal
+data/ingested_documents_v4.txt
+.streamlit/secrets.toml
